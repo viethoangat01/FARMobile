@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">FARMobile</string>
+    <string name="main_barcode">Barcode</string>
+    <string name="main_kafkabroker">Kafka Broker</string>
+    <string name="setting_kafkatopic">Kafka Topic</string>
+    <string name="setting_ip">Add IP</string>
+    <string name="setting_addip">Add IP</string>
+    <string name="setting_connect">Connect</string>
+</resources>
