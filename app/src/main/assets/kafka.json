@@ -1,0 +1,5 @@
+[
+	{ "prediction": 0.3232, "mlflow_model_version":"105", "test_datetime":"2022/04/26 08:36:11",
+	  "ip":"107.114.62.215","p_n":"CP4234234","failitem":"lte05_xxx_rx","timestamp":"2022/04/26 08:36:11"
+	}
+]

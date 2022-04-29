@@ -6,4 +6,5 @@
     <string name="setting_ip">Add IP</string>
     <string name="setting_addip">Add IP</string>
     <string name="setting_connect">Connect</string>
+    <string name="main_setting">Setting</string>
 </resources>
