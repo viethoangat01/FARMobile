@@ -8,4 +8,5 @@
     <string name="setting_connect">Connect</string>
     <string name="main_setting">Setting</string>
     <string name="rowip_ip">192.168.1.1</string>
+    <string name="setting_notify_invalid_ip">Invalid IP Address!</string>
 </resources>

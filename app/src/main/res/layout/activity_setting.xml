@@ -61,6 +61,7 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@id/edittext_setting_ip"
         tools:listitem="@layout/row_ip"
+        android:background="@color/cardview_light_background"
         />
 
     <LinearLayout

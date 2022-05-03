@@ -2,11 +2,9 @@ package com.example.farmobile.data.db;
 
 import android.content.ContentValues;
 import android.content.Context;
-import android.database.DatabaseErrorHandler;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 
-import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
 import static com.example.farmobile.utils.AppConstants.DB_NAME;
@@ -33,7 +31,7 @@ public class DBHandler extends SQLiteOpenHelper {
     @Override
     public void onCreate(SQLiteDatabase sqLiteDatabase) {
         String query1="CREATE TABLE "+TABLE_NAME_KAFKA+"("
-                +COL_ID+"INTEGER PRIMARY KEY AUTOINCREMENT, "
+                + COL_ID + " INTEGER PRIMARY KEY AUTOINCREMENT, "
                 +COL_PREDICTION+ " TEXT,"
                 +COL_MODELVERSION+" INTEGER,"
                 +COL_TESTDATETIME+" TEXT,"
@@ -43,7 +41,7 @@ public class DBHandler extends SQLiteOpenHelper {
                 +COL_KAFKATIME+" TEXT)";
 
         String query2="CREATE TABLE "+TABLE_NAME_HISTORY+"("
-                +COL_ID+"INTEGER PRIMARY KEY AUTOINCREMENT, "
+                + COL_ID + " INTEGER PRIMARY KEY AUTOINCREMENT, "
                 +COL_PREDICTION+ " TEXT,"
                 +COL_MODELVERSION+" INTEGER,"
                 +COL_TESTDATETIME+" TEXT,"
